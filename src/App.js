@@ -1,10 +1,12 @@
 
 import './App.css';
+import Counter from './component/Counter';
 
 function App() {
   return (
     <div className="App">
-      <h2>Wellcome to redux counter app</h2>
+      <h2>Wellcome to redux</h2>
+      <Counter />
     </div>
   );
 }
